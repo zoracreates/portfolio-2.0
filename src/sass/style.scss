@@ -243,7 +243,6 @@ p.u-small {
   position: relative;
   padding: 10px;
   border-radius: 7px;
-  transition-duration: 0.5s;
   border: 1px solid transparent;
 }
 
@@ -276,7 +275,6 @@ a.btn {
   padding: 7px 25px 10px 25px;
   width: fit-content;
   background-color: $btn-color;
-  transition: 0.4s ease-in;
   border-radius: 7px;
   border: none;
   text-transform: lowercase;
@@ -289,7 +287,6 @@ nav a.btn {
   border: 2px solid $background-color;
   padding: 2px 10px 5px 10px;
   border-radius: 7px;
-  transition: 0.4s ease-in;
 }
 
 .hero-band a.btn:hover,
@@ -306,6 +303,7 @@ a.btn:hover {
   border-color: transparent;
   background-color: darken($btn-color, 10%);
   box-shadow: none;
+  transition: 0.4s ease-in;
 }
 
 a.text-btn {
