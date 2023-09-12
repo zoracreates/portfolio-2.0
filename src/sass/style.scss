@@ -36,6 +36,13 @@ h2 code {
   font-size: $h2-size;
 }
 
+figcaption {
+  font-size: $h5-size;
+  font-style: italic;
+  text-align: center;
+  margin-top: .5rem;
+}
+
 /* General layout */
 
 img {
@@ -766,6 +773,11 @@ ul.post-list {
 .tool-excel::before {
   background-image: url(../../images/work/tools/excel.png);
 }
+
+.tool-adobe-illustrator::before {
+  background-image: url(../../images/work/tools/illustrator.png);
+}
+
 
 .tool-openscholar::before {
   background-image: url(../../images/work/tools/openscholar.png);

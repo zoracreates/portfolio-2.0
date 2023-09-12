@@ -7,7 +7,7 @@ description: I participated in the analysis of interviews and in the initial jou
 featuredImage: ./src/images/work/2019-harvardkey-discovery/hk-discovery-project-card.png
 featuredImageAlt: Section of an affinity map created for HarvardKey 2.0
 toolsList: [  "Miro", "Sketch"]
-displayOrder: 1
+displayOrder: 3
 projectOverview:
     teamAndTimeline: HarvardKey  2.0 is a multi-year project, scoped in phases. In this case study, I discuss my involvement in the Usability Testing Phase, which took place from April to May 2021. I was also later involved in the Discovery Research Phase during Oct 2019.
     responsabilities: [ "Interview Data Analysis", "Journey Mapping", "Competitive Research and Literature Review" ]

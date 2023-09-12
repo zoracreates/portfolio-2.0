@@ -2,7 +2,7 @@
 published: true
 date: 2023-09-01
 categories: [ "UX Research", "Digital Accessibility" ]
-title: "What I've been upto: UX Research at Fidelity Investments"
+title: UX Research at Fidelity Investments
 description: Since summer of 2022, I've been working at Fidelity Investments as UX Researcher for emerging personal investing products.
 featuredImage: ./src/images/work/2023-fidelity/fidelity-project-card.png
 featuredImageAlt: A laptop and a phone show a green and red stocks graph.

@@ -6,7 +6,7 @@ title: Prototype Testing for HarvardKey 2.0
 description: I conducted a moderated usability study for a prototype version of HarvardKey 2.0
 featuredImage: ./src/images/work/2021-harvardkey-testing/hk-testing-project-card.png
 featuredImageAlt: HavardKey 2.0 Log in screen
-displayOrder: 2
+displayOrder: 4
 projectOverview:
     teamAndTimeline: 1 month start to finish, with a 3-person team working remotely.
     responsabilities: [ "Usability Testing", "Research Analysis", "Reporting Findings" ]

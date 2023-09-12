@@ -6,7 +6,7 @@ title: Research, Information Architecture, and Experience Design for the Harvard
 description: I redesigned a private Community Website for Harvard Institute for Learning in Retirement (HILR), focusing on information architecture and experience design. During the project, I also conducted a user survey and a comparative tree test.
 featuredImage: ./src/images/work/2021-hilr/hilr-project-card.png
 featuredImageAlt: Harvard Institute for Learning in Retirement Community Website on a laptop, on a phone, and on a tablet
-displayOrder: 3
+displayOrder: 7
 projectOverview:
     teamAndTimeline: 7 months start to finish, with a 5-person team working remotely.
     responsabilities:  [ "Discovery Research", "Information Architecture", "Experience Design", "Website Theming" ]
