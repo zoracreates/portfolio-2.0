@@ -11,7 +11,7 @@ projectOverview:
     teamAndTimeline: 2022 to present
     responsabilities: [ "User Experience Research", "Democratization of Research", "Accessibility Research" ]
     tools: [ "User Testing", "Optimal Workshop", "Qualtrics", "Excel" ]
-    outcome: This research resulted in the redesign, prioritization of features, and contributed to the successful launch of a new app.
+    outcome: This research resulted in the redesign and prioritization of features, and contributed to the successful launch of a new app.
 ---
 ## What I do
 As a researcher for emerging personal investing products, I'm responsible for both foundational and tactical research of new and re-launched products. For the past year, I've focused on mobile products being developed in the new investors and Young Customers space. 
