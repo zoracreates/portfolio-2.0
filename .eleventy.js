@@ -101,6 +101,13 @@ module.exports = function (eleventyConfig) {
             .getFilteredByGlob('./src/work/*.md')
             .filter((item) => item.data.categories.includes('Visual Design')));
     });
+
+    eleventyConfig.addCollection('da', collection => {
+        return sortByDisplayOrder(
+            collection
+            .getFilteredByGlob('./src/work/*.md')
+            .filter((item) => item.data.categories.includes('Digital Accessibility')));
+    });
     
     eleventyConfig.addCollection('de', collection => {
         return sortByDisplayOrder(

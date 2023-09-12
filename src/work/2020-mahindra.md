@@ -6,7 +6,7 @@ title: UX Facilitation, visual design, and website theming for Harvard’s Mahin
 description: I redesigned the visual experience of Mahindra Center for the Humanities (MCH) website within the OpenScholar CMS and used CSS and JavaScript to apply new styles to the site.
 featuredImage: ./src/images/work/2020-mahindra/mahindra-project-card-2.png
 featuredImageAlt: Mahindra Center for the Humanities website on a laptop and on a phone
-displayOrder: 4
+displayOrder: 5
 projectOverview:
     teamAndTimeline: 6 months start to finish with a 6-person team working on Harvard’s campus.
     responsabilities: [ "Experience and Visual Design", "Website Theming and Design Engineering", "Mobile and Accessibility Testing" ]

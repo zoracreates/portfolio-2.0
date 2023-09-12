@@ -36,6 +36,13 @@ h2 code {
   font-size: $h2-size;
 }
 
+figcaption {
+  font-size: $h5-size;
+  font-style: italic;
+  text-align: center;
+  margin-top: .5rem;
+}
+
 /* General layout */
 
 img {
@@ -755,10 +762,22 @@ ul.post-list {
 .tool-optimal-workshop::before {
   background-image: url(../../images/work/tools/optimalworkshop.png);
 }
-
-.tool-javascript::before {
-  background-image: url(../../images/work/tools/javascript.png);
+.tool-user-testing::before {
+  background-image: url(../../images/work/tools/usertesting.png);
 }
+
+.tool-user-testing::before {
+  background-image: url(../../images/work/tools/usertesting.png);
+}
+
+.tool-excel::before {
+  background-image: url(../../images/work/tools/excel.png);
+}
+
+.tool-adobe-illustrator::before {
+  background-image: url(../../images/work/tools/illustrator.png);
+}
+
 
 .tool-openscholar::before {
   background-image: url(../../images/work/tools/openscholar.png);
