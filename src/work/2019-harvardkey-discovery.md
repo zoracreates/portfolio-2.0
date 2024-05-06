@@ -9,7 +9,7 @@ featuredImageAlt: Section of an affinity map created for HarvardKey 2.0
 toolsList: [  "Miro", "Sketch"]
 displayOrder: 3
 projectOverview:
-    teamAndTimeline: HarvardKey  2.0 is a multi-year project, scoped in phases. In this case study, I discuss my involvement in the Usability Testing Phase, which took place from April to May 2021. I was also later involved in the Discovery Research Phase during Oct 2019.
+    teamAndTimeline: HarvardKey  2.0 is a multi-year project, scoped in phases. In this case study, I discuss my involvement in the Discovery Research Phase, which took place from during October 2019. I was also later involved in the Usability Testing phase between April and May 2021.
     responsabilities: [ "Interview Data Analysis", "Journey Mapping", "Competitive Research and Literature Review" ]
     tools: [ "Miro", "Sketch" ]
     outcome: The scope of the HarvardKey project expanded from adding a new login for a small Harvard audinece, to a more comprehansive re-design of the HarvardKey system used by eveyrone at Harvard.
