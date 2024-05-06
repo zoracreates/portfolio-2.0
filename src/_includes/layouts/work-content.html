@@ -1,0 +1,78 @@
+{% extends "layouts/secondary-base.html" %}
+
+{% if collectionName == "work" %}
+    {% set isWorkCollection = true%}
+    {% else%}
+    {% set isWorkCollection = false%}
+    {% endif%}
+
+    {% block mainContent %}
+        <main>
+            <div class="wrapper-lg">
+                <h2>Some of my projects and their impact</h2>
+
+                <ul class="post-list cols-50-50 impact">
+                    {% for project in projectsAndImpact.projects %}
+                        <li class="col">
+
+                            <div class="image-wrapper">
+                                {% image project.img,
+                                project.imgAlt %}
+                            </div>
+
+                            <h3 class="h4-style">{{project.title}}</h3>
+
+                            <p>
+                                <span class="label">Impact:</span>
+                                {{project.impact}}
+                            </p>
+
+                            <p class="u-small">
+                                <span class="label">
+                                    Method:</span>
+                                {{project.method}}
+                            </p>
+
+                            {%if project.participantCount%}
+                                <p class="u-small">
+                                    <span class="label">
+                                        Participant count:</span>
+                                    {{project.participantCount}}
+                                </p>
+                            {% endif %}
+
+                            <p class="u-small">
+                                <span class="label">
+                                    Duration:</span>
+                                {{project.duration}}
+                            </p>
+
+                            <p class="u-small">
+                                <span class="label">
+                                    Dates:</span>
+                                {{project.date}}</p>
+
+
+                            {%if project.caseStudy%}
+                                <p class="u-small">
+                                    <span class="label">
+                                      Full case study:</span>
+                                    <a href="{{project.url}}">{{project.caseStudy}}</a>
+                                </p>
+                            {% endif %}
+
+                        </li>
+
+                        {%endfor%}
+                    </ul>
+
+                </div>
+            </main>
+
+            <aside class="wrapper-lg">
+                <h2>Want learn more?</h2>
+                <p>If you want to see more of my work or talk about what I do, get in touch!</p>
+                <a class="btn" href="mailto:{{metadata.author.email}}">Email Me</a>
+            </aside>
+
+        {% endblock %}
