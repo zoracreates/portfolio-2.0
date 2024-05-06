@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "img": "./src/images/work-cards/pilot-card.png",
+            "imgAlt": "A smarphone and notebook on a table.",
+            "title": "Managed an online community of teens and parents to pilot a new product before launch.",
+            "impact": "Began to map how customers used the app, and identified usability problems to be addressed pre-launch.",
+            "date": "September to October 2023",
+            "method": "Qualitative surveys and In-depth Interviews",
+            "duration": "8 weeks",
+            "participantCount": "70"
+        },
+        {
+            "img": "./src/images/work-cards/invest-learn-card.png",
+            "imgAlt": "Teen boy working on his laptop.",
+            "title": "Interviewed teens and their parents to describe the steps teens take when learning to invest in an app and how parents support them.",
+            "impact": "Identified key educational gaps in the app and informed layout and content changes.",
+            "date": "April 2024",
+            "method": "In-depth Interviews and Task Solicitation",
+            "duration": "3 weeks",
+            "participantCount": "16 (8 dyads)"
+        },
+        {
+            "img": "./src/images/work-cards/ao-card-2.png",
+            "imgAlt": "Hands of a mother and a daughter working on a laptop.",
+            "title": "Surveyed parents of a financial app for teens to describe how teens are involved in the account opening process.",
+            "impact": "Deprioritized the design of a new onboarding feature.",
+            "date": "March 2024",
+            "method": "Quantitative Survey",
+            "duration": "2 weeks",
+            "participantCount": "68"
+        },
+        {
+            "img": "./src/images/work-cards/gifting-card.png",
+            "imgAlt": "Small gift with a bow",
+            "title": "Conducted dyad interviews with teens and parents to describe how teens receive and manage monetary gifts.",
+            "impact": "Validated adding a feature to our roadmap.",
+            "date": "February 2024",
+            "method": "In-depth Interviews",
+            "duration": "2 weeks",
+            "participantCount": "16 (8 dyads)"
+        },
+        {
+            "img": "./src/images/work-cards/concept-test.png",
+            "imgAlt": "Mom helping her son with homework on a desktop computer",
+            "title": "Collaborated in a design sprint for the parent experience of a teen-oriented financial app. Then concept tested the resulting designs with real customers.",
+            "impact": "Validated features that helped parents collaborate with teens, and made improvement recommendations",
+            "date": "November 2023",
+            "method": "Concept Testing",
+            "duration": "4 weeks",
+            "participantCount": "7"
+        },
+        {
+            "img": "./src/images//work-cards/hk-discovery-card.png",
+            "imgAlt": "Section of an journey map created for HarvardKey 2.0.",
+            "title": "Analyzed qualitative data from users and software admins to better understand the authentication needs of the Harvard University community.",
+            "impact": "Findings inspired HarvardKey 2.0, a new four-teared authentication system, that consolidated different logins into one and allowed easier increase/decrease of access depending on a person's role.",
+            "date": "October 2019",
+            "method": "Affinity Mapping and Journey Mapping",
+            "duration": "3 weeks",
+            "caseStudy": "Discovery and Exploratory Research for HarvardKey 2.0",
+            "url": "/work/2019-harvardkey-discovery/"
+        },
+        {
+            "img": "./src/images//work-cards/hk-testing-card.png",
+            "imgAlt": "Me moderating a HavardKey 2.0 usability testing session.",
+            "title": "Evaluated the usability of the HarvardKey 2.0 interface.",
+            "impact": "Prioritized key usability improvements for the new authentication portal for Harvard University.",
+            "date": "April to May 2021",
+            "method": "Usability Testing",
+            "duration": "4 weeks",
+            "participantCount": "13",
+            "caseStudy": "Prototype Testing for HarvardKey 2.0",
+            "url": "/work/2021-harvardkey-testing/"
+        },
+        {
+            "img": "./src/images/work-cards/tree-test-table-card-2.png",
+            "imgAlt": "Breakdown of tasks for tree tests, showing that the tree without the word Resources preformed better.",
+            "title": "Tested and compared two navigational structures for the Harvard Institute for Learning in Retirement website.",
+            "impact": "Identified a navigational structure with a higher findability score.",
+            "date": "May 2021",
+            "method": "Tree Testing",
+            "duration": "2 weeks (as part of a 7-month design project)",
+            "participantCount": "59",
+            "caseStudy": "Research, Information Architecture, and Experience Design for the Harvard Institute for Learning in Retirement Community Website",
+            "url": "/work/2021-hilr-community-website/"
+        }
+    ]
+}

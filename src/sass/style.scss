@@ -223,7 +223,6 @@ ul.social span,
   @include bold-font;
 }
 
-.label,
 .u-small {
   font-size: $h6-size;
 }
@@ -823,6 +822,28 @@ ul.post-list {
   background-image: url(../../images/work/tools/zoom.png);
 }
 
+.impact {
+
+  &.post-list  p.u-small {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .h4-style {
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: $h4-size;
+  }
+  h3 {
+    color: $secondary-black;
+    margin-bottom: .5rem;
+  }
+
+  p:not(.u-small) {
+    margin-bottom: .5rem;
+  }
+}
+
 /* home */
 .video-container,
 .audio-container {
@@ -922,22 +943,29 @@ blockquote span {
 }
 
 /* Gird classes */
-.cols-50-50 > .col {
+.cols-50-50 > .col,
+.cols-33-33-33 > .col {
   margin-bottom: 35px;
 }
 
 @media (min-width: 768px) {
-  .cols-20-80 {
+  .cols-20-80,
+  .cols-33-33-33 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .cols-33-33-33 {
+    justify-content: space-evenly;
   }
 
   .cols-20-80 > .col:first-child {
     flex-basis: 17%;
   }
 
-  .cols-20-80 > h2.col:first-child {
+  .cols-20-80 > h2.col:first-child,
+  .cols-33-33-33 > h3.col:first-child {
     margin-top: 0px;
   }
 
@@ -945,10 +973,19 @@ blockquote span {
     flex-basis: 80%;
   }
 
+  .cols-33-33-33 > .col {
+    flex-basis: 30%;
+  }
+
   @supports (display: grid) {
     .cols-20-80 {
       display: grid;
       grid-template-columns: 1fr 5fr;
+      grid-gap: 0px 35px;
+    }
+    .cols-33-33-33 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 0px 35px;
     }
   }
