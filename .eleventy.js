@@ -51,7 +51,6 @@ module.exports = function (eleventyConfig) {
 
 
 
-
     //image shortcode
     eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
 
@@ -81,47 +80,6 @@ module.exports = function (eleventyConfig) {
         return [...collection.getFilteredByGlob('./src/blog/*.md')].reverse();
     });
 
-    eleventyConfig.addCollection('uxr', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('UX Research')));
-    });
-
-    eleventyConfig.addCollection('uxd', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('Experience Design')));
-    });
-
-    eleventyConfig.addCollection('vd', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('Visual Design')));
-    });
-
-    eleventyConfig.addCollection('da', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('Digital Accessibility')));
-    });
-    
-    eleventyConfig.addCollection('de', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('Design Engineering')));
-    });
-
-    eleventyConfig.addCollection('fe', collection => {
-        return sortByDisplayOrder(
-            collection
-            .getFilteredByGlob('./src/work/*.md')
-            .filter((item) => item.data.categories.includes('Front-End Development')));
-    });
 
     return {
         // markdown files, data files, and HTML files should be processed by Nunjucks
