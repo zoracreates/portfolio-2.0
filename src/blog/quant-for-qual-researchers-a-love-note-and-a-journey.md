@@ -6,7 +6,7 @@ description: My working list of quant resoruces for qual researchers.
 ---
 Much of my UX Research career has focused on qualitative research. And I've also been told that quantitative research is not a pre-requisite to being a UX Researcher. Perhaps that is true. I think giving people the opportunity to learn quant research along the way is important, and allows for diverse voices to enter into the field.
 
-That said, the more research I do, the more I begin to value having a mixed methods toolbox. And after reading [Tim Harford's *The Data Detective*](https://timharford.com/books/datadetective/), I've become (surprisingly) excited and fascinated by the topic of statistics. And working with talented behavioral scientists, and compounded that interest.
+That said, the more research I do, the more I begin to value having a mixed methods toolbox. And after reading [Tim Harford's *The Data Detective*](https://timharford.com/books/datadetective/), I've become (surprisingly) excited and fascinated by the topic of statistics. And working with talented behavioral scientists has added to  that interest.
 
 So for the past year or so, I've embarked on a journey to hone my quant research skills, and I would love to encourage other qual researchers to do the same. For that reason, I'm starting a series on quant topics for researchers. 
 
