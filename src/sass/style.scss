@@ -227,6 +227,10 @@ ul.social span,
   font-size: $h6-size;
 }
 
+.u-bold {
+  font-weight: bold;
+}
+
 p.u-small {
   margin-bottom: 0px;
   &:last-child {
@@ -575,6 +579,15 @@ ul.post-list {
 .post-list li {
   list-style: none;
   margin-bottom: 35px;
+  &.post-small {
+    margin-bottom: 10px;
+  }
+}
+
+#home .post-list li {
+  h4, p.u-bold {
+    margin-bottom: 0px;
+  }
 }
 
 .tag {
@@ -844,6 +857,14 @@ ul.post-list {
 }
 
 /* home */
+
+#home .cols-20-80:not(:last-of-type) {
+  padding-bottom: 35px;
+}
+
+#home .post-list .post-title {
+  font-size: $h4-size;
+}
 .video-container,
 .audio-container {
   position: relative;
@@ -903,11 +924,9 @@ ul.post-list {
 #home .u-header,
 #home .cta {
   margin-right: 7px;
-  margin-left: 7px;
 }
 
 #home .u-header ~ a.text-btn {
-  margin-left: 7px;
   transform: translateY(-20px);
 }
 

@@ -1,22 +1,21 @@
 
-<h2 class="col">Read Some Thoughts</h2>
+<h2 class="col">Some Blog Thoughts</h2>
 <div class="col">
 
-    <h3 class="u-header">Recent Blog Posts</h3>
 
     <ul class="post-list cols-50-50">
         
     {# get the two most recent posts in the blog collection #}
-    {% for i in range(0, 2) %}
+    {% for i in range(0, 4) %}
      
      {% set post = collections.blog[i] %}   
 
-        <li class="col card">
-            <h4>
+        <li class="col">
+            <h3 class="post-title">
                 <a href="{{ post.url }}">
                     {{post.data.title}}
                 </a>
-            </h4>
+            </h3>
             <p class="u-small">
                 <span class="label">Posted:</span>
                 <time datetime="{{ post.data.date }}">{{ post.data.date | formatDate }}</time>
@@ -28,27 +27,4 @@
     </ul>
 
     <a class="text-btn" href="/blog">See All Blog Posts</a>
-
-    <h3 class="u-header">Written Elsewhere</h3>
-    <ul class="post-list cols-50-50">
-
-        {% for feature in featuredWriting.features %}
-            <li class="col card">
-                <h4>
-                    <a href="{{ feature.url }}">
-                        {{ feature.title }}
-                    </a>
-                </a>
-            </h4>
-            <p class="u-small">
-                <span class="label">Published:</span>
-                <time datetime="{{ feature.date }}">{{ feature.date | formatDate }}</time>
-                at <i>{{ feature.publication }}</i>
-            </p>
-            <p class="u-med">{{ feature.description }}</p>
-
-        </li>
-
-    {% endfor %}
-</ul>
 </div>

@@ -1,0 +1,61 @@
+<h2 class="col">Past Appearenes</h2>
+
+<div class="col cols-50-50">
+
+<div class="col">
+    <h3 class="u-header">Speaking</h3>
+    <ul class="post-list">
+        {% for feature in featuredSpeaking.features %}
+            <li class="post-small">
+                {% if feature.titleLanguage%}
+                    <p class="u-bold" lang="{{ feature.language }}">
+                        {% else%}
+                        <p class="u-bold">
+                {% endif %}
+                    {% if feature.url%}
+                        <a class="u-bold" href="{{ feature.url }}">{{ feature.title }}</a>
+                        {% else %}
+                        {{ feature.title}}
+                        {% endif %}
+                    </p>
+
+                    <p class="u-small">
+                        <span class="label">{{ feature.dateLabel }}:</span>
+                        <time datetime="{{ feature.date }}">{{ feature.date | formatDate }}</time>
+                        at
+                        {% if feature.forLanguage%}
+                            <span lang="{{ feature.language }}">
+                                {% else%}
+                                <span>
+                                {% endif %}
+                                {{ feature.for }}</span>
+                    </p>
+            </li>
+
+        {% endfor %}
+    </ul>
+    </div>
+<div class="col">
+
+    <h3 class="u-header">Writting</h3>
+            <ul class="post-list">
+                {% for feature in featuredWriting.features %}
+                <li class="post-small">
+                        <p class="u-bold">
+                            <a class="u-bold" href="{{ feature.url }}">
+                                {{ feature.title }}
+                            </a>
+                        </p>
+                    <p class="u-small">
+                        <span class="label">Published:</span>
+                        <time datetime="{{ feature.date }}">{{ feature.date | formatDate }}</time>
+                        at
+                        <i>{{ feature.publication }}</i>
+                    </p>
+
+                </li>
+
+                {% endfor %}
+            </ul>
+</div>
+</div>
