@@ -20,8 +20,8 @@ I do plan to add links to articles as I write them. I've also included some reso
 ## General Stats Topics
 - Descriptive statistics
 	- Central tendency 
-	- Frequency
-	- Distribution
+	- Variability
+	- Frequency Distribution
 - Inferential statistics
 	- Hypothesis testing
 	- Confidence Intervals
