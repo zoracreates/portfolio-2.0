@@ -36,6 +36,7 @@ I do plan to add links to articles as I write them. I've also included some reso
 - Tree test analysis
 - Card sort analysis
 - Quant Moderated Research Measures
+- Jobs to be Done Quantitative Measures
 - Statistical personas and clustering techniques
 
 ## Useful Resources
