@@ -52,8 +52,8 @@ $light-gray: #F5F5F5;
 $background-color: $white; 
 $text-color: $black; 
 $divider-color: $black; 
-$btn-color: $primary-color;
-$btn-text: $white;
+$btn-color: $secondary-color;
+$btn-text: lighten($black, 5%);
 $secondary-black: lighten($black, 15%);
 $primary-color-dark: darken($primary-color, 5%);
 
