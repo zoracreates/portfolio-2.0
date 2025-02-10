@@ -18,17 +18,19 @@ This is not a comprehensive list, and it'll change over time. And because I don'
 I do plan to add links to articles as I write them. I've also included some resources that have helped me so far and dive deeper into these topics than I probably will.
 
 ## General Stats Topics
-- Descriptive statistics
-	- Central tendency 
-	- Variability
-	- Frequency Distribution
+- <a href="../descriptive-statistics"> Descriptive statistics</a>
+	- <a href="../descriptive-statistics/#central-tendency">Central tendency </a>
+	- <a href="../descriptive-statistics/#variability">Variability</a>
+	- <a href="../descriptive-statistics/#frequency-distribution">Frequency distribution</a>
+- Univariate vs bivariate descriptive statistics
+- Probability
+	- Probability distributions
 - Inferential statistics
 	- Hypothesis testing
-	- Confidence Intervals
-	- Probability 
+	- Confidence intervals
 	- Correlation
 		- Regression
-		- Correlation Coefficient
+		- Correlation coefficient
 		- Correlation matrixes
 
 ## Quant UXR topics
