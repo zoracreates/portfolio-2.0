@@ -938,10 +938,11 @@ ul.post-list {
 blockquote {
   font-style: italic;
   font-weight: 700;
+  border-left: 2px solid $primary-color;
 }
 
 blockquote p {
-  border-left: 2px solid $primary-color;
+
   font-size: $h4-size;
   padding-left: 20px;
   margin-bottom: 5px;

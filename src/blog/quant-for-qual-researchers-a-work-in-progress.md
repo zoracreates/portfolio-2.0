@@ -35,13 +35,13 @@ I do plan to add links to articles as I write them. I've also included some reso
 		- Correlation matrixes
 
 ## Quant UXR topics
+- <a href="../discrete-choice-modeling">Discrete choice methods</a>
 - Survey Design
 - Tree test analysis
 - Card sort analysis
 - Quant Usability Research Measures
 - Jobs to be Done Quantitative Measures
 - Statistical personas and clustering techniques
-- Discrete choice methods 
 - Kano analysis
 
 ## Useful Resources

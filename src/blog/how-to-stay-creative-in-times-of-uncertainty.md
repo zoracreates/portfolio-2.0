@@ -8,8 +8,10 @@ Like many of us who for the past few weeks have been stuck at home self-quaranti
 
 Looking for ideas, I browsed around, <i>oh I could take an online programming course, oh I could do something with my portfolio, oh how about a UXR course instead</i>. Having enrolled in 3 courses and started none, I stopped. I couldn’t decide what to do. There was so much I wanted to do, <i>so much I could do to become more productive and increase my productivity in this time of unproductiveness</i>. 
 
-<blockquote> It’s always a mistake to equate productivity and creativity. They are not the same […]
-<span>Austin Kleon, <i>Keep Going: 10 Ways to Stay Creative in Good Times and Bad</i></span></blockquote>
+<blockquote> 
+<p>It’s always a mistake to equate productivity and creativity. They are not the same […]
+<span>Austin Kleon, <i>Keep Going: 10 Ways to Stay Creative in Good Times and Bad</i></span
+></p></blockquote>
 
 After taking a few days off from trying to do anything productive, I began to realize that I was spiraling into a cycle of wanting to become better at work, while trying to pick up the remains of whatever routine I had left.  And that wasn’t why I had set out to create something. 
 
