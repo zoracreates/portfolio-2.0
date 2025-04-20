@@ -2,7 +2,7 @@
 title: Descriptive Statistics, Quant for Qual Researchers
 tags: [ "UX research", "UXR tools", "quantitative research", "mixed methods" ]
 date: 2025-02-09
-description: My working list of quant resoruces for qual researchers.
+description: An introduction to statistics for qual researchers looking for a place to start.
 ---
 
 _This article follows my series [Quant for Qual Researchers, a work in progress](https://www.zoracabrera.com/blog/quant-for-qual-researchers-a-work-in-progress/), which I started for qual researchers who want to upscale their toolbox but don't know where to start._
