@@ -41,8 +41,8 @@ I do plan to add links to articles as I write them. I've also included some reso
 - Quant Usability Research Measures
 - Jobs to be Done Quantitative Measures
 - Statistical personas and clustering techniques
-- Descrte choice analysis 
-- Kano 
+- Discrete choice methods 
+- Kano analysis
 
 ## Useful Resources
 ### Books
