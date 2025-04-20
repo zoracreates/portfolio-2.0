@@ -34,7 +34,7 @@ I do plan to add links to articles as I write them. I've also included some reso
 		- Correlation coefficient
 		- Correlation matrixes
 
-## Quant UXR topics
+## Special topics
 - <a href="../discrete-choice-modeling">Discrete choice methods</a>
 - Survey Design
 - Tree test analysis
@@ -43,6 +43,7 @@ I do plan to add links to articles as I write them. I've also included some reso
 - Jobs to be Done Quantitative Measures
 - Statistical personas and clustering techniques
 - Kano analysis
+- Cross tab analysis
 
 ## Useful Resources
 ### Books
