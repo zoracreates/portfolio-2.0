@@ -66,7 +66,7 @@ This is the easiest way to calculate variability, and therefore used frequently.
 <h3 class="sm-heading">Interquartile range </h3>
 
 - **Definition:**
-The different between the number in the 25th percentile, and the number in the 75th percentile.
+The difference between the number in the 25th percentile, and the number in the 75th percentile.
 - **Ways to use:**
 This is commonly used for creating a [boxplot](https://www.scribbr.com/statistics/interquartile-range/), which visually represents variability. The bigger the box (and thus bigger the interquartile) the wider the variability. Boxplots, also help show weather numbers are distributed more towards the right or left of the median. 
 
